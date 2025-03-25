@@ -8,7 +8,7 @@ scores = list(input().split(" "))
 winners_count = 0
 
 for score in scores:
-	if int(score)>=k:
+	if int(score)>=int(scores[k-1]) and int(score)>0:
 		winners_count+=1
 
-print(winners_count)
+print(winners_count) # answer
