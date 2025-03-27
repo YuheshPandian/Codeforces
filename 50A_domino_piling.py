@@ -1,6 +1,6 @@
-m,n = input().split(" ")
-m,n = int(m), int(n)
+m, n = input().split(" ")
+m, n = int(m), int(n)
 
-size_of_board = m*n
+size_of_board = m * n
 
-print(size_of_board//2)
+print(size_of_board // 2)
