@@ -1,0 +1,14 @@
+name: RuffFix CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint-and-format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: RuffFix lint and format
+        uses: YuheshPandian/RuffFix@v1.0.1

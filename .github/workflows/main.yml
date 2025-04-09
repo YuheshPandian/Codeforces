@@ -1,2 +1,0 @@
-- name: RuffFix Lint and Format
-  uses: YuheshPandian/RuffFix@v1.0.1
