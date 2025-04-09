@@ -10,5 +10,6 @@ jobs:
   lint-and-format:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - name: RuffFix lint and format
         uses: YuheshPandian/RuffFix@v1.0.1
