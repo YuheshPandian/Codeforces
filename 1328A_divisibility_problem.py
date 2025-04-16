@@ -13,3 +13,7 @@ for _ in range(n):
 
 for moves in moves_list:
     print(moves)
+
+###############################
+##    FIX RUN-TIME ERROR     ##
+###############################
