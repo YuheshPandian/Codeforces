@@ -1,6 +1,5 @@
 total_levels: int = int(input())
 
-
 little_x_levels = input().split()[1::]
 little_y_levels = input().split()[1::]
 
