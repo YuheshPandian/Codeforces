@@ -12,7 +12,7 @@ notes_count = 0
 #     else:
 #         denominations.pop(-1)
 
-
+# Optimized way
 for value in reversed(denominations):
     notes_count += amount_to_withdraw // value
     amount_to_withdraw = amount_to_withdraw % value
