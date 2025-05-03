@@ -1,16 +1,16 @@
 faces = {
-    "cube": 6,
-    "tetrahedron": 4,
-    "octahedron": 8,
-    "dodecahedron": 12,
-    "icosahedron": 20,
+    "Cube": 6,
+    "Tetrahedron": 4,
+    "Octahedron": 8,
+    "Dodecahedron": 12,
+    "Icosahedron": 20,
 }
 
 n = int(input())
 faces_count = 0
 
 for _ in range(n):
-    polyhedron = input().lower()
+    polyhedron = input()
     faces_count = faces_count + faces[polyhedron]
 
 
