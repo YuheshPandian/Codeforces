@@ -1,4 +1,4 @@
-name: RuffFix CI
+name: RuffFix Format CI
 
 on:
   push:
@@ -11,5 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: RuffFix lint and format
-        uses: YuheshPandian/RuffFix@v1.0.1
+      - name: RuffFix format
+        uses: YuheshPandian/RuffFix@v1.2.0
+      with:
+        mode: format
