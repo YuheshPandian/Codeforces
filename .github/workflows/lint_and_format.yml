@@ -13,5 +13,5 @@ jobs:
       - uses: actions/checkout@v3
       - name: RuffFix format
         uses: YuheshPandian/RuffFix@v1.2.0
-      with:
-        mode: format
+        with:
+          mode: format
