@@ -1,0 +1,7 @@
+string = input()
+ans = set(string)
+ans.discard(" ")
+ans.discard(",")
+ans.discard("{")
+ans.discard("}")
+print(len(ans))
